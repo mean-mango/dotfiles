@@ -14,6 +14,8 @@ set shiftwidth=2 " number of spaces when shift indenting
 set tabstop=2 " number of visual spaces per tab
 set softtabstop=2 " number of spaces in tab when editing
 set expandtab " tab to spaces
+set incsearch " search as characters are entered
+set hlsearch " highlight matches
 
 " move lines up and down
 nnoremap <C-j> :m .+1<CR>==
