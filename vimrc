@@ -5,6 +5,7 @@ filetype plugin indent on
 
 " Nerd Tree toggling
 map <C-b> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " vim settings
 set smartindent
