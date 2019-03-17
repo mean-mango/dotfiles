@@ -1,0 +1,42 @@
+{
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+     {
+         "before": ["j", "j"],
+         "after": ["<esc>"]
+     }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-j>"],
+            "commands": [
+                "editor.action.moveLinesDownAction",
+            ]
+        },
+        {
+            "before": ["<C-k>"],
+            "commands": [
+                "editor.action.moveLinesUpAction",
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-j>"],
+            "commands": [
+                "editor.action.moveLinesDownAction",
+            ]
+        },
+        {
+            "before": ["<C-k>"],
+            "commands": [
+                "editor.action.moveLinesUpAction",
+            ]
+        }
+    ]
+}
