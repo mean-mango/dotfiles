@@ -8,6 +8,9 @@ map <C-b> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 " vim settings
+colorscheme gruvbox
+set background=dark    " Setting dark mode
+
 set smartindent
 set clipboard=unnamed " use os clipboard
 set shiftwidth=2 " number of spaces when shift indenting
@@ -28,3 +31,6 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 " switch to left / right split (mostly for Nerd Tree)
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+" switch between modes using jj
+imap jj <Esc>
